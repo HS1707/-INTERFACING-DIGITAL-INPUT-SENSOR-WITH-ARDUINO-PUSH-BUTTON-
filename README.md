@@ -1,8 +1,8 @@
 ## INTERFACING DIGITAL INPUT SENSOR WITH ARDUINO PUSH BUTTON
-## DATE :16-02-2024
-## NAME :HARIHARAN S																			             
-## ROLLNUMBER :212221220016
-## DEPARTMENT :IT
+## DATE: 16-02-2024
+## NAME: HARIHARAN S																			             
+## ROLLNUMBER: 212221220016
+## DEPARTMENT: IT
 
 
 ## AIM:
@@ -52,7 +52,8 @@ FIGURE-02
 ## CIRCUIT DIAGRAM 
 
 
-![image] 
+![image] ![Screenshot 2024-02-16 154946](https://github.com/HS1707/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/117717427/4055661f-01ae-44eb-96ad-3554f9b7f9c6)
+
 
 
 
@@ -64,6 +65,7 @@ FIGURE -03
 ## PROGRAM 
 
 # ON CONDITION:
+'''
  int led=3;
 int pushbutton=4;
 void setup()
@@ -86,7 +88,9 @@ void loop()
     digitalWrite(led, LOW);
     delay(500);
   }
+'''
 # OFF CONDITION:
+'''
 int led=3;
 int pushbutton=4;
 void setup()
@@ -109,12 +113,8 @@ void loop()
     digitalWrite(led, LOW);
     delay(500);
   }  
-}
-
-
-    
-   
-}
+}  
+'''
  
 
 
